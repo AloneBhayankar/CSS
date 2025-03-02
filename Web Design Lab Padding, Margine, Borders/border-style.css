@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    margin: 20px;
+    padding: 60px;
+    border: 5px solid red;
+    outline: 5px solid black;
+    outline-offset: 2px;
+}
+
+/* Top-left, Top-right, Bottom-right, Bottom-left BORDER-RADIUS*/
+/* Top right Bottom left MARGIN*/
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    border: 5px dotted green;
+    border-radius: 50%;
+    margin: 100px 2px 200px 0px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    width: 250px;
+    height: 250px;
+    color: red;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 1px 30px 90px 10px;
+    margin: 20px 0px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 50%;
+    margin: 100px 0px 200px 0px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 110px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 50px 50px 2px 2px;
+    margin-bottom: 2px;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 110px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 2px 2px 50px 50px;
+    margin-top: 2px;
+}
+
+.six {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 110px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 2px 2px 50px 50px;
+    margin-bottom: 2px;
+}
+
+.seven {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 110px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 50px 50px 2px 2px;
+    margin-top: 2px;
+}
+
+.eight {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 110px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 50px 2px 2px 50px;
+    margin-bottom: 120px;
+}
+
+.nine {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 110px;
+    background-color: lightpink;
+    border: 5px solid green;
+    border-radius: 2px 50px 50px 2px;
+    margin-bottom: 120px;
+}

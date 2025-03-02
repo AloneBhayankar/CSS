@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: lightgoldenrodyellow;
+}
+
+.layout{
+display: flex;
+justify-content: center;     
+}
+h1{
+    color: red;
+    text-align: center;
+    padding: 10px 0px;
+}
+.container{
+    border: 1px solid black;
+    border-style: solid none;
+    margin: 50px;
+}
+h3{
+    color: red;
+    text-align: center;
+    background-color: rgb(255, 231, 14);
+}
+img{
+    width: 300px;
+    height: 160px;
+}
+td {
+    padding: 2px 20px; 
+}
